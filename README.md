@@ -2,13 +2,13 @@
 
 This repository contains the source code for two projects:
 
-1. **[Checking the enrichment of iron deficiency genes in an RNA-Seq tomato dataset](./Tomato_FeDeficiency_Genes_Clustering)**  
-   - Located in the `Tomato_FeDeficiency_Genes_Clustering` folder.  
-   - Uses K-means and hierarchical clustering to analyze gene expression patterns.
+1. **Checking the enrichment of iron deficiency genes in an RNA-Seq tomato dataset**  
+   - Uses K-means and hierarchical clustering to analyze gene expression patterns.  
+   - The source code can be found in the [`Tomato_FeDeficiency_Genes_Clustering`](./Tomato_FeDeficiency_Genes_Clustering) folder.
 
-2. **[Fe Deficiency Detection and Index Creation](./Hyperspectral_FeDeficiency_BiClassification)**  
-   - Located in the `Leaf_Reflectance_Index_Creation` folder.  
+2. **Fe Deficiency Detection and Index Creation**  
    - Based on the leaf reflectance of 4 plants at different wavelengths (400-1000 nm).  
-   - Implemented using Standard Logistic Regression and Random Forest.
+   - Implemented using Standard Logistic Regression and Random Forest.  
+   - The source code is available in the [`Hyperspectral_FeDeficiency_BiClassification`](./Hyperspectral_FeDeficiency_BiClassification) folder.
 
-Feel free to explore the projects and contribute if you'd like!
+Feel free to explore the projects and contribute if you wish!
