@@ -12,7 +12,7 @@
 
 ## Phase 2
 - **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified`  
-  - This modified train set includes **36 manually added samples** from `"Michele_test"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`considering first 9 samples of each plant.
+  - This modified train set includes **36 manually-added samples** from `"Michele_test"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`considering first 9 samples of each plant.
 
 - **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Michele_fornew_trainSet`  
   - This test set was constructed as follows:  
@@ -21,4 +21,10 @@
        - `Exp_I_Anna_Fe_Tomato` *(known as "Anna1")*  
        - `Exp_II_Anna_Fe_Tomato` *(known as "Anna2")*  
        - `Exp_Marco_tesista_Fe_Lupino` *(known as "Marco1")*  
-       - `Michele_test2`  
+       - `Michele_test2`
+      
+## Phase 3
+- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`  
+  - This modified train set includes **36 randomly-added samples** from the refined version of `"Michele_test"` titled `"Michele_column_names_editted"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`.
+
+- **Test Dataset:** The same as Phase 2  
