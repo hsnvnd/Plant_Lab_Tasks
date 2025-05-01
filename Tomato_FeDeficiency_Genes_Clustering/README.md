@@ -1,4 +1,4 @@
-# This folder contains the source code for the paper **"Roots in Action for the Fe Response: Early Response-Omics in Tomato Dependent on the Applied N-Form."**
+This folder contains the source code for the paper *"Roots in Action for the Fe Response: Early Response-Omics in Tomato Dependent on the Applied N-Form."*
 
 ## Overview
 This repository contains the source code for the paper **"Roots in Action for the Fe Response: Early Response-Omics in Tomato Dependent on the Applied N-Form"**. The project focuses on analyzing iron deficiency gene enrichment in an RNA-Seq dataset for tomato plants.
