@@ -22,8 +22,6 @@ The analysis is performed using clustering techniques to categorize gene express
      - **All genes**
      - **Only iron deficiency genes within each cluster**
    - The results are visualized using **heatmaps**.
-
-## Similarity Measures & Linkage Methods
-- **Distance Metric**: Euclidean distance  
-- **Linkage Method**: Ward's method  
-
+   - **Similarity Measures & Linkage Methods**  
+     - **Distance Metric**: Euclidean distance  
+     - **Linkage Method**: Ward's method  
