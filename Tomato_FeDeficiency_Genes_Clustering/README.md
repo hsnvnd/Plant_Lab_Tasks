@@ -27,19 +27,13 @@ The analysis is performed using clustering techniques to categorize gene express
      - **Linkage Method**: Ward's method  
 
 ## Dataset Overview
-## **FPKM_tomato.txt**  
-Contains gene expression values for **15 samples**.
-
-## **Tomato_columns.txt**  
-Provides an explanation of the **treatment status** of each column in `FPKM_tomato.txt`.
-
-## **iron_genes1.txt**  
-- **Column 1**: Fe deficiency gene names.  
-- **Column 2**: Descriptions of Fe deficiency genes.  
-- These values were extracted from the paper *"A Hitchhiker’s Guide to the Arabidopsis Ferrome."*
-
-## **GeneNames.txt**  
-Contains **three columns**:  
-1. **Tomato gene names** corresponding to `FPKM_tomato.txt`.  
-2. **Gene names** found in `"annotation Solyc_ITAG4_0.xlsx"`.  
-3. **Important gene names** located in **Column L** of `"annotation Solyc_ITAG4_0.xlsx"`.
+- **FPKM_tomato.txt**: Contains gene expression values for 15 samples.  
+- **Tomato_columns.txt**: Explains the treatment status of each column in `FPKM_tomato.txt`.  
+- **iron_genes1.txt**:  
+  - Column 1: Fe deficiency gene names.  
+  - Column 2: Descriptions of Fe deficiency genes.  
+  - Extracted from *"A Hitchhiker’s Guide to the Arabidopsis Ferrome."*  
+- **GeneNames.txt**:  
+  - Tomato gene names corresponding to `FPKM_tomato.txt`.  
+  - Gene names found in `"annotation Solyc_ITAG4_0.xlsx"`.  
+  - Important gene names located in Column L of `"annotation Solyc_ITAG4_0.xlsx"`.
