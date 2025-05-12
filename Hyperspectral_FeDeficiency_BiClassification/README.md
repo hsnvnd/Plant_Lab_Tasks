@@ -27,7 +27,7 @@
 - **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`  
   - This modified train set includes **36 randomly-added samples** from the refined version of `"Michele_test"` titled `"Michele_column_names_editted"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`.
 
-- **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Ranom_Michele_fornew_trainSet`  
+- **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Random_Michele_fornew_trainSet`  
   - This test set was constructed as follows:  
     1. **Created `"Michele_test3"`** by removing the 36 samples of `"Michele_column_names_editted"` that were added to the train set (`Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`).  
     2. **Merged** the following datasets to form the new test set:  
