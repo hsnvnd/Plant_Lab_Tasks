@@ -1,7 +1,7 @@
 # Dataset Overview
 
 ## Phase 1
-- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe` *(known as "Original Dataset")*
+- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe.txt` *(known as "Original Dataset")*
 - **Test Datasets:**  
   - `Exp_I_Anna_Fe_Tomato.txt` *(known as "Anna1")*  
   - `Exp_II_Anna_Fe_Tomato.txt` *(known as "Anna2")*  
@@ -11,17 +11,17 @@
   - `Merged_Anna1_Anna2_Marco1_Michele_as_test.txt` *(here we have merged all samples of "Michele_test.txt" which are 143 samples of "-N+Fe")*
 
 ## Phase 2
-- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified`  
-  - This modified train set includes **36 manually-added samples** from `"Michele_test"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`considering first 9 samples of each plant.
+- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified.txt`  
+  - This modified train set includes **36 manually-added samples** from `"Michele_test.txt"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe.txt"`considering first 9 samples of each plant.
 
-- **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Michele_fornew_trainSet`  
+- **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Michele_fornew_trainSet.txt`  
   - This test set was constructed as follows:  
-    1. **Created `"Michele_test2"`** by removing the 36 samples of `"Michele_test"` that were added to the train set (`Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified`).  
+    1. **Created `"Michele_test2.txt"`** by removing the 36 samples of `"Michele_test.txt"` that were added to the train set (`Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified.txt`).  
     2. **Merged** the following datasets to form the new test set:  
-       - `Exp_I_Anna_Fe_Tomato` *(known as "Anna1")*  
-       - `Exp_II_Anna_Fe_Tomato` *(known as "Anna2")*  
-       - `Exp_Marco_tesista_Fe_Lupino` *(known as "Marco1")*  
-       - `Michele_test2`
+       - `Exp_I_Anna_Fe_Tomato.txt` *(known as "Anna1")*  
+       - `Exp_II_Anna_Fe_Tomato.txt` *(known as "Anna2")*  
+       - `Exp_Marco_tesista_Fe_Lupino.txt` *(known as "Marco1")*  
+       - `Michele_test2.txt`
       
 ## Phase 3
 - **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`  
