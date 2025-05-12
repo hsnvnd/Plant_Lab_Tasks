@@ -8,7 +8,7 @@
   - `Exp_Marco_tesista_Fe_Lupino` *(known as "Marco1")*  
   - `Marco_lupin_Polypen_last_day_24_0_2025` *(Known as Marco2. It has fewer columns/features and hence, can not be used in merged-dataset experiments)* 
   - `Merged_Anna1_Anna2_Marco_as_test`
-  - `Merged_Anna1_Anna2_Marco1_Michele_as_test` (here we have merged all samples of Michele which are 143 samples of "-N+Fe")
+  - `Merged_Anna1_Anna2_Marco1_Michele_as_test` *(here we have merged all samples of Michele which are 143 samples of "-N+Fe")*
 
 ## Phase 2
 - **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified`  
