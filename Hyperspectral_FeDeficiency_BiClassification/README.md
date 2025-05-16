@@ -9,19 +9,6 @@
   - `Marco_lupin_Polypen_last_day_24_0_2025.txt` *(Known as Marco2. It has fewer columns/features and hence, can not be used in merged-dataset experiments)* 
   - `Merged_Anna1_Anna2_Marco1_as_test.txt`
   - `Merged_Anna1_Anna2_Marco1_Michele_as_test.txt` *(here we have also merged all samples of "Michele_test.txt" which which consist of 71 samples of young leaves with the "-N+Fe" condition)*
-
-## Phase 2
-- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified.txt`  
-  - This modified train set includes **36 manually-added samples** from `"Michele_test.txt"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe.txt"`considering first 9 samples of each plant.
-
-- **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Michele_fornew_trainSet.txt`  
-  - This test set was constructed as follows:  
-    1. **Created `"Michele_test2.txt"`** by removing the 36 samples of `"Michele_test.txt"` that were added to the train set (`Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_modified.txt`).  
-    2. **Merged** the following datasets to form the new test set:  
-       - `Exp_I_Anna_Fe_Tomato.txt` *(known as "Anna1")*  
-       - `Exp_II_Anna_Fe_Tomato.txt` *(known as "Anna2")*  
-       - `Exp_Marco_tesista_Fe_Lupino.txt` *(known as "Marco1")*  
-       - `Michele_test2.txt`
       
 ## Phase 3
 - **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`  
