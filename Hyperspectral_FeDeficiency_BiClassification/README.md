@@ -10,7 +10,7 @@
   - `Merged_Anna1_Anna2_Marco1_as_test.txt`
   - `Merged_Anna1_Anna2_Marco1_Michele_as_test.txt` *(here we have also merged all samples of "Michele_test.txt" which which consist of 71 samples of young leaves with the "-N+Fe" condition)*
       
-## Phase 3
+## Phase 2
 - **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`  
   - This modified train set includes **36 randomly-added samples** from the refined version of `"Michele_test"` titled `"Michele_column_names_editted"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`.
 
