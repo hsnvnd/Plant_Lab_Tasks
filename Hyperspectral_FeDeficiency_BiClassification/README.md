@@ -22,3 +22,8 @@
        - `Exp_II_Anna_Fe_Tomato` *(known as "Anna2")*  
        - `Exp_Marco_tesista_Fe_Lupino` *(known as "Marco1")*  
        - `Michele_test3`
+
+## Implementation
+- **Notebook:** `Hyperspectral_FeDeficiency_BiClassification_IndexCreation.ipynb`
+- This notebook contains the implementation and is used for both Phase 1 and Phase 2.
+
