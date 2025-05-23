@@ -1,7 +1,7 @@
 # Repository Overview
 
 This repository contains materials for two projects related to the initiative:  
-**"Towards digital and smart agriculture: use of artificial intelligence and bioinformatic approaches to support the quality of the agrifood chain 🌱"**
+**"Towards digital and smart agriculture: use of artificial intelligence and bioinformatic approaches to support the quality of the agrifood chain"**
 
 1. **Checking the enrichment of Iron deficiency genes in an RNA-Seq tomato dataset**  
    - Uses K-means and hierarchical clustering to analyze gene expression patterns.  
