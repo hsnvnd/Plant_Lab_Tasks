@@ -1,29 +1,15 @@
-# Dataset Overview
+# Repository Overview
 
-## Phase 1
-- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe.txt` *(known as "Original Dataset")*
-- **Test Datasets:**  
-  - `Exp_I_Anna_Fe_Tomato.txt` *(known as "Anna1")*  
-  - `Exp_II_Anna_Fe_Tomato.txt` *(known as "Anna2")*  
-  - `Exp_Marco_tesista_Fe_Lupino.txt` *(known as "Marco1")*  
-  - `Marco_lupin_Polypen_last_day_24_0_2025.txt` *(Known as Marco2. It has fewer columns/features and hence, can not be used in merged-dataset experiments)* 
-  - `Merged_Anna1_Anna2_Marco1_as_test.txt`
-  - `Merged_Anna1_Anna2_Marco1_Michele_as_test.txt` *(here we have also merged all samples of "Michele_test.txt" which which consist of 71 samples of young leaves with the "-N+Fe" condition)*
-      
-## Phase 2
-- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`  
-  - This modified train set includes **36 randomly-added samples** from the refined version of `"Michele_test"` titled `"Michele_column_names_editted"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`.
+This repository contains materials for two projects related to the initiative:  
+**"Towards digital and smart agriculture: use of artificial intelligence and bioinformatic approaches to support the quality of the agrifood chain"**
 
-- **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Random_Michele_fornew_trainSet`  
-  - This test set was constructed as follows:  
-    1. **Created `"Michele_test3"`** by removing the 36 samples of `"Michele_column_names_editted"` that were added to the train set (`Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`).  
-    2. **Merged** the following datasets to form the new test set:  
-       - `Exp_I_Anna_Fe_Tomato` *(known as "Anna1")*  
-       - `Exp_II_Anna_Fe_Tomato` *(known as "Anna2")*  
-       - `Exp_Marco_tesista_Fe_Lupino` *(known as "Marco1")*  
-       - `Michele_test3`
+1. **Checking the enrichment of Iron deficiency genes in an RNA-Seq tomato dataset**  
+   - Uses K-means and hierarchical clustering to analyze gene expression patterns.  
+   - All related files are located in the [`Tomato_FeDeficiency_Genes_Clustering`](./Tomato_FeDeficiency_Genes_Clustering) folder.
 
-## Implementation
-- **Notebook:** `Hyperspectral_FeDeficiency_BiClassification_IndexCreation.ipynb`
-- This notebook contains the implementation and is used for both Phase 1 and Phase 2.
+2. **Iron deficiency detection and index development**  
+   - Based on the leaf reflectance of four plants (e.g., cucumber, tomato, barley, and maize) at different wavelengths (400-1000 nm).  
+   - Implemented using Standard Logistic Regression and Random Forest.  
+   - All related files are located in the [`Hyperspectral_FeDeficiency_BiClassification`](./Hyperspectral_FeDeficiency_BiClassification) folder.
 
+Feel free to explore the projects and contribute if you wish!
