@@ -1,15 +1,22 @@
-# Repository Overview
+# 📌 Repository Overview
 
-This repository contains materials for two projects related to the initiative:  
-**"Towards digital and smart agriculture: use of artificial intelligence and bioinformatic approaches to support the quality of the agrifood chain"**
+This repository contains research materials related to my M.Sc. thesis:  
+**"Effectively Modeling of Singly-Peaked Opponents in Automated Bilateral Negotiations"**  
 
-1. **Checking the enrichment of Iron deficiency genes in an RNA-Seq tomato dataset**  
-   - Uses K-means and hierarchical clustering to analyze gene expression patterns.  
-   - All related files are located in the [`Tomato_FeDeficiency_Genes_Clustering`](./Tomato_FeDeficiency_Genes_Clustering) folder.
+These studies are part of the broader work:  
+**"Towards Digital and Smart Agriculture: Use of Artificial Intelligence and Bioinformatic Approaches to Support the Quality of the Agrifood Chain."**
 
-2. **Iron deficiency detection and index development**  
-   - Based on the leaf reflectance of four plants (e.g., cucumber, tomato, barley, and maize) at different wavelengths (400-1000 nm).  
-   - Implemented using Standard Logistic Regression and Random Forest.  
-   - All related files are located in the [`Hyperspectral_FeDeficiency_BiClassification`](./Hyperspectral_FeDeficiency_BiClassification) folder.
+## 📄 Included Papers  
 
-Feel free to explore the projects and contribute if you wish!
+1. **Automated Negotiation Agents in Modeling Single-Peaked Bidders: An Experimental Comparison**  
+   📎 [Read the Paper](<https://www.mdpi.com/2078-2489/15/8/508>)  
+
+2. **Automated Negotiation Agents in Modeling Gaussian Bidders**  
+   📎 [Read the Paper](<https://miscj.aut.ac.ir/article_5287.html>)  
+
+3. **Experimental Analysis of Automated Negotiation Agents in Modeling Gaussian Bidders**  
+   📎 [Read the Paper](<https://ieeexplore.ieee.org/abstract/document/9685464>)  
+
+---
+
+Feel free to **explore the repository, contribute, or reach out** with questions! 🚀  
