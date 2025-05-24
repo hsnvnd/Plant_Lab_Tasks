@@ -1,39 +1,29 @@
-# 📌 Repository Overview
+# Dataset Overview
 
-This repository contains research materials related to my M.Sc. thesis:  
-**"Effectively Modeling of Singly-Peaked Opponents in Automated Bilateral Negotiations"**  
+## Phase 1
+- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe.txt` *(known as "Original Dataset")*
+- **Test Datasets:**  
+  - `Exp_I_Anna_Fe_Tomato.txt` *(known as "Anna1")*  
+  - `Exp_II_Anna_Fe_Tomato.txt` *(known as "Anna2")*  
+  - `Exp_Marco_tesista_Fe_Lupino.txt` *(known as "Marco1")*  
+  - `Marco_lupin_Polypen_last_day_24_0_2025.txt` *(Known as Marco2. It has fewer columns/features and hence, can not be used in merged-dataset experiments)* 
+  - `Merged_Anna1_Anna2_Marco1_as_test.txt`
+  - `Merged_Anna1_Anna2_Marco1_Michele_as_test.txt` *(here we have also merged all samples of "Michele_test.txt" which which consist of 71 samples of young leaves with the "-N+Fe" condition)*
+      
+## Phase 2
+- **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`  
+  - This modified train set includes **36 randomly-added samples** from the refined version of `"Michele_test"` titled `"Michele_column_names_editted"` to `"Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe"`.
 
-## 📄 Included Papers  
+- **Test Dataset:** `Merged_Anna1_Anna2_Marco1_Random_Michele_fornew_trainSet`  
+  - This test set was constructed as follows:  
+    1. **Created `"Michele_test3"`** by removing the 36 samples of `"Michele_column_names_editted"` that were added to the train set (`Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe_add36_randomly`).  
+    2. **Merged** the following datasets to form the new test set:  
+       - `Exp_I_Anna_Fe_Tomato` *(known as "Anna1")*  
+       - `Exp_II_Anna_Fe_Tomato` *(known as "Anna2")*  
+       - `Exp_Marco_tesista_Fe_Lupino` *(known as "Marco1")*  
+       - `Michele_test3`
 
-1. **Automated Negotiation Agents in Modeling Single-Peaked Bidders: An Experimental Comparison**  
-   📎 [Read the Paper](<https://www.mdpi.com/2078-2489/15/8/508>)  
+## Implementation
+- **Notebook:** `Hyperspectral_FeDeficiency_BiClassification_IndexCreation.ipynb`
+- This notebook contains the implementation and is used for both Phase 1 and Phase 2.
 
-2. **Automated Negotiation Agents in Modeling Gaussian Bidders**  
-   📎 [Read the Paper](<https://miscj.aut.ac.ir/article_5287.html>)  
-
-3. **Experimental Analysis of Automated Negotiation Agents in Modeling Gaussian Bidders**  
-   📎 [Read the Paper](<https://ieeexplore.ieee.org/abstract/document/9685464>)  
-
-
-## 📂 Folder Structure  
-
-This repository contains several subdirectories, each housing negotiation agents created using different mathematical modeling techniques. Below is an overview of their contents:  
-
-### **1️⃣ Skew-Normal Distribution** (`Skew_normal_Distribution/`)  
-🔹 Contains agents based on the **Skew-Normal Distribution Function**.  
-🔹 Refer to **Section 4.1.1** of *Automated Negotiation Agents in Modeling Single-Peaked Bidders: An Experimental Comparison* for methodology.  
-
-### **2️⃣ Normal Distribution** (`Normal_Distribution/`)  
-🔹 Contains agents based on the **Gaussian Function**.  
-🔹 Refer to **Section 4.1.2** of *Automated Negotiation Agents in Modeling Single-Peaked Bidders: An Experimental Comparison* for methodology.  
-
-### **3️⃣ General Triangular Function**  
-These folders contain agents created using the **General Triangular Function**:  
-- `Tri_1_90/`  
-- `Tri_20_20/`  
-- `Tri_70_30/`  
-
-🔹 Refer to **Section 4.1.3** of *Automated Negotiation Agents in Modeling Single-Peaked Bidders: An Experimental Comparison* for methodology.  
-
----
-Feel free to **explore the repository, contribute, or reach out** with questions! 🚀  
