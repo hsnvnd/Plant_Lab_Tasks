@@ -3,9 +3,6 @@
 This repository contains research materials related to my M.Sc. thesis:  
 **"Effectively Modeling of Singly-Peaked Opponents in Automated Bilateral Negotiations"**  
 
-These studies are part of the broader work:  
-**"Towards Digital and Smart Agriculture: Use of Artificial Intelligence and Bioinformatic Approaches to Support the Quality of the Agrifood Chain."**
-
 ## 📄 Included Papers  
 
 1. **Automated Negotiation Agents in Modeling Single-Peaked Bidders: An Experimental Comparison**  
