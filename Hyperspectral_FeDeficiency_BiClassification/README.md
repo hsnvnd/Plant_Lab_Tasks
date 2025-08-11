@@ -1,4 +1,8 @@
-# Dataset Overview
+## Overview
+This repository contains the source code for the paper **"Uncovering Critical Reflectance Wavelengths for
+Iron-Deficiency Detection Using Machine Learning: A Comparative Study"**. The project focuses on iron deficiency detection in Hyperspectral-imaging dataset for tomato, cucumber, barley, maize, and lupine.
+
+## Dataset Overview
 
 ## Phase 1
 - **Train Dataset:** `Dati_HIS_Serra_Cs_Hv_Sl_Zm_no_Fe.txt` *(known as "Original Dataset")*
