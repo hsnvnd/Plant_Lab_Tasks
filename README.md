@@ -10,6 +10,6 @@ This repository contains materials for two projects related to the initiative:
 2. **Iron deficiency detection and index development**  
    - Based on the leaf reflectance of four plants (e.g., cucumber, tomato, barley, and maize) at different wavelengths (400-1000 nm).  
    - Implemented using SVM, LDA, Standard Logistic Regression and Random Forest.  
-   - All related files are located in the [`Hyperspectral_FeDeficiency_BiClassification`](./Hyperspectral_FeDeficiency_BiClassification) folder.
+  
 
 Feel free to explore the projects and contribute if you wish!
