@@ -8,7 +8,7 @@ This repository contains materials for two projects related to the initiative:
    - All related files are located in the [`Tomato_FeDeficiency_Genes_Clustering`](./Tomato_FeDeficiency_Genes_Clustering) folder.
 
 2. **Iron deficiency detection and index development**  
-   - Based on the leaf reflectance of four plants (e.g., cucumber, tomato, barley, and maize) at different wavelengths (400-1000 nm).  
+   - Based on the leaf reflectance of five plants (e.g., cucumber, tomato, barley, maize, and finally lupine) at different wavelengths (400-1000 nm).  
    - Implemented using SVM, LDA, Standard Logistic Regression and Random Forest.  
   
 
