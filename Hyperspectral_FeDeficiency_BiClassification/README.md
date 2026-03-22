@@ -32,9 +32,8 @@ This repository contains the source code for the paper **"Iron Deficiency Detect
 - This notebook contains the implementation and is used for both Phase 1 and Phase 2.
 
 ## Environment
-Python version: 3.11.5
-This project was developed and tested using:
-- Core libraries include:
+**Python version:** 3.11.5
+Core libraries include:
 - NumPy  
 - Pandas  
 - Scikit‑learn  
