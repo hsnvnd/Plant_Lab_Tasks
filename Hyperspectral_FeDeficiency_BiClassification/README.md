@@ -39,7 +39,7 @@ Core libraries include:
 - NumPy  
 - Pandas  
 - Scikit‑learn  
-- SHAP(G)
+- SHAP
 - Matplotlib  
 - Seaborn
 
