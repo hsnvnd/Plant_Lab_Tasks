@@ -35,7 +35,7 @@ This repository contains the source code for the paper **"Iron Deficiency Detect
 
 This project was developed and tested using:
 - **Python version:** 3.11.5
-Core libraries include:
+- Core libraries include:
 - NumPy  
 - Pandas  
 - Scikit‑learn  
