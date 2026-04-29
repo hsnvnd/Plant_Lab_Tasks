@@ -1,7 +1,5 @@
-# Roots in Action for the Fe Response: Early Response-Omics in Tomato Dependent on the Applied N-Form
-
 ## Overview
-This repository contains the source code for the paper **"Roots in Action for the Fe Response: Early Response-Omics in Tomato Dependent on the Applied N-Form"**. The project focuses on analyzing iron deficiency gene enrichment in an RNA-Seq dataset for tomato plants.
+This repository contains the source code for the paper **"The Early Response to Urea, Nitrate, or Ammonium and Iron Resupply in Tomato Roots Highlights the Induction of FER, bHLHs, UMAMITs and MATEs"**. The project focuses on analyzing iron deficiency gene enrichment in an RNA-Seq dataset for tomato plants.
 
 ## Purpose
 The primary goal of this study is to investigate the enrichment of iron deficiency genes in an RNA-Seq dataset and identify meaningful patterns in gene expression.
