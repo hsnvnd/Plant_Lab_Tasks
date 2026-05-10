@@ -35,3 +35,8 @@ The analysis is performed using clustering techniques to categorize gene express
   - Tomato gene names corresponding to `FPKM_tomato.txt`.  
   - Gene names found in `"annotation Solyc_ITAG4_0.xlsx"`.  
   - Important gene names located in Column L of `"annotation Solyc_ITAG4_0.xlsx"`.
+
+## Citation
+If you use this repository, please cite:
+**"The Early Response to Urea, Nitrate, or Ammonium and Iron Resupply in Tomato Roots Highlights the Induction of FER, bHLHs, UMAMITs and MATEs"**
+(BibTeX entry will be added once available.)
