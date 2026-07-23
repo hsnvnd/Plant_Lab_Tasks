@@ -47,5 +47,6 @@ journal={Physiologia Plantarum},
 volume={178}, number={4},
 pages={e70977},
 year={2026},
-doi={10.1111/ppl.70977} }
+doi={10.1111/ppl.70977}
+}
 ```
