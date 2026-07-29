@@ -40,13 +40,14 @@ The analysis is performed using clustering techniques to categorize gene express
 If you use this repository, please cite:
 
 ``` bibtex
-@article{lodovici2026earlyresponse,
-title={The Early Response to Urea, Nitrate, or Ammonium and Iron Resupply in Tomato Roots Highlights the Induction of FER, bHLHs, UMAMITs, and MATEs},
-author={Lodovici, A. and Zhang, L. and Tomasi, N. and others},
-journal={Physiologia Plantarum},
-volume={178}, number={4},
-pages={e70977},
-year={2026},
-doi={10.1111/ppl.70977}
+@article{lodovici2026early,
+  title={The Early Response to Urea, Nitrate, or Ammonium and Iron Resupply in Tomato Roots Highlights the Induction of FER, bHLHs, UMAMITs, and MATEs},
+  author={Lodovici, Arianna and Zhang, Leilei and Tomasi, Nicola and Vinci, Gabriella and Marroni, Fabio and Piani, Barbara and Hassanvand, Fatemeh and Arkoun, Mustapha and Lucini, Luigi and Zanin, Laura},
+  journal={Physiologia Plantarum},
+  volume={178},
+  number={4},
+  pages={e70977},
+  year={2026}
 }
+
 ```
